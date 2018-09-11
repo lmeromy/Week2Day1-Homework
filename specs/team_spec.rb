@@ -5,7 +5,7 @@ require('minitest/rg')
 
 require_relative('../team')
 
-class TestTeam < Minitest::Test
+class TeamTest < Minitest::Test
 
   def setup #to set up  global variables for testing
     @team = Team.new("Mustangs", ['Leah', 'Eric'], "Coach Gray")
